@@ -20,7 +20,7 @@ tx.sign(0, keyPair)
 
 // Print transaction serialized as hex
 console.log(tx.build().toHex())
-// => 0100000001313eb630b128102b60241ca895f1d0ffca21 ...
+
 
 // You could now push the transaction onto the Bitcoin network manually
 // (see https://blockchain.info/pushtx)
